@@ -182,6 +182,7 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
+  font-family: Ralewayo;
   background: #2f303a;
 }
 .color-footer {
@@ -241,8 +242,6 @@ body {
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
-  color: color: #FFFFFF;
-  
 }
 .filter-button:hover,
 .filter-button:focus {
