@@ -229,3 +229,26 @@ body {
 .contact-mail:focus {
   color: #2196f3;
 }
+.btn-blu {
+  background: #2196f3;
+  color: #ffffff;
+}
+.filter-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: color: #FFFFFF;
+  
+}
+.filter-button:hover,
+.filter-button:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+.active-page {
+  color: #2196f3;
+}
