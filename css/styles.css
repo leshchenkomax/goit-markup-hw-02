@@ -9,8 +9,49 @@ body {
   color: #212121;
   font-family: Roboto, raleway, sans-serif;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
 
 /* <!--Header--> */
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .link {
   font-weight: 500;
   font-size: 14px;
@@ -99,10 +140,15 @@ body {
   color: var(--text-color);
   background-color: #2196f3;
   cursor: pointer;
+  margin-bottom: 200px;
 }
 .button :hover,
 .button :focus {
   color: #188ce8;
+}
+.hero {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /* <!--section list--> */
 .hero-title {
@@ -110,11 +156,10 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #212121;
+  margin-bottom: 10px;
 }
 .hero-item {
   font-style: normal;
@@ -125,6 +170,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--hero-text-color);
+  margin-bottom: 10px;
 }
 .hero-after-title {
   font-style: normal;
@@ -143,18 +189,24 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-bottom: 50px;
 
   color: #212121;
 }
 /* <!--section team--> */
+.section-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .team-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 .team-name-title {
   font-weight: 500;
@@ -162,6 +214,7 @@ body {
   line-height: 19px;
   text-align: center;
   color: #212121;
+  margin-top: 30px;
 }
 .team-description {
   font-weight: normal;
@@ -169,6 +222,7 @@ body {
   line-height: 19px;
   text-align: center;
   color: #757575;
+  margin-top: 10px;
 }
 
 /* <!--footer section--> */
@@ -177,6 +231,7 @@ body {
   font-size: 26px;
   line-height: 31px;
   background: #2f303a;
+  padding-top: 60px;
 }
 .color-footer {
   font-weight: bold;
