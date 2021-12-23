@@ -7,8 +7,22 @@
 body {
   background: #ffffff;
   color: #212121;
-  font-family: Roboto, raleway, sans-serif;
+  font-family: Roboto, sans-serif;
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -21,8 +35,28 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+img {
+  display: block;
+
+  margin-left: 30px;
+}
 
 /* <!--Header--> */
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.header-nav {
+  display: flex;
+}
+
 .link {
   font-weight: 500;
   font-size: 14px;
@@ -41,24 +75,32 @@ body {
 
   color: #000000;
 }
+/* .header-logo {
+  padding-top: 24px;
+  padding-bottom: 25px; */
+
 .color-log {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-
   color: #2196f3;
 }
 
 /* Весь тег Ul без точек */
 .list {
   list-style: none;
+  display: flex;
 }
 
 /* header-link */
 .header-link {
   color: var(--hero-text-color);
+  margin-left: 50px;
+}
+.header-list {
+  display: flex;
 }
 /* ховер для ссылок */
 .header-link:hover,
@@ -86,6 +128,10 @@ body {
 /* <!--section button--> */
 .section-banner {
   background: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  width: auto;
 }
 
 .section-title {
@@ -122,11 +168,14 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #212121;
+  margin-bottom: 10px;
+}
+.hero-list {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .hero-item {
   font-style: normal;
@@ -143,9 +192,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 /* <!--Our work section--> */
@@ -155,8 +202,9 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 /* <!--section team--> */
 .team-title {
@@ -165,7 +213,6 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 .team-name-title {
@@ -174,6 +221,8 @@ body {
   line-height: 19px;
   text-align: center;
   color: #212121;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 .team-description {
   font-weight: normal;
